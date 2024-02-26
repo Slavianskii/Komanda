@@ -1,5 +1,6 @@
 import math
 
+
 class TestClass:
 
     def __init__(self):
