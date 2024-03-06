@@ -11,8 +11,8 @@ def calculate():
     arg2 = data['arg2']
     operation = data['operation']
 
-    return calculator(arg1, arg2, operation)
-
+    key, value = calculator(arg1, arg2, operation)
+    return jsonify({key: value})
 
 
 if __name__ == '__main__':
